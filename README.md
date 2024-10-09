@@ -278,7 +278,8 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
             <br />
             <sub><b>ndlanier</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/RestartFU">
             <img src="https://avatars.githubusercontent.com/u/45609733?v=4" width="100;" alt="RestartFU"/>
