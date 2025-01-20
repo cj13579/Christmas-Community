@@ -1,4 +1,4 @@
-name: Bump version & publish image
+name: Bump version
 on:
   push:
     branches:
@@ -21,3 +21,4 @@ jobs:
         git-message: 'chore(release): {version}'
         output-file: "false"
         skip-on-empty: "false" # maybe just for testing
+        skip-commit: "true"
