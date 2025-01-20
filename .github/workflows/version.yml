@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GH_TOKEN_ACTION }}
 
     - name: Bump version and push tag
       id: changelog
