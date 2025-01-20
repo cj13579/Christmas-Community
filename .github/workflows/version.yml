@@ -18,6 +18,5 @@ jobs:
       uses: TriPSs/conventional-changelog-action@v6
       with:
         github-token: ""
-        git-message: 'chore(release): {version}'
         output-file: "false"
         skip-on-empty: "false" # maybe just for testing
