@@ -1,8 +1,10 @@
 name: Publish image
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - master
+    paths:
+      - 'package.json'
 
 jobs:
   publish-app:
