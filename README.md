@@ -147,12 +147,14 @@ MARKDOWN=false
 ## OIDC Provider Details
 # You can configure single sign-on to your Christmas Community instance using any OIDC provider.
 # Once you've created a client ID and secret in your authentication provider use the below environment variables to enable single sign on.
+# The values specified below are the defaults
 # OIDC_CLIENT_ID=
 # OIDC_CLIENT_SECRET=
 # OIDC_AUTHORIZATION_URL=https://accounts.google.com/o/oauth2/auth
 # OIDC_TOKEN_URL=https://oauth2.googleapis.com/token
 # OIDC_ISSUER=https://accounts.google.com
 # OIDC_PROVIDER_NAME=Google
+# OIDC_AUTO_CREATE_USER=false
 
 
 # Profile picture upload max size in MB
@@ -242,12 +244,21 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/frostyfrog">
+                    <img src="https://avatars.githubusercontent.com/u/209002143?v=4" width="100;" alt="frostyfrog"/>
+                    <br />
+                    <sub><b>frostyfrog</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/jskiddie">
                     <img src="https://avatars.githubusercontent.com/u/153759737?v=4" width="100;" alt="jskiddie"/>
                     <br />
                     <sub><b>jskiddie</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/dbarenholz">
                     <img src="https://avatars.githubusercontent.com/u/25849034?v=4" width="100;" alt="dbarenholz"/>
@@ -255,8 +266,6 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                     <sub><b>dbarenholz</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Laeborg">
                     <img src="https://avatars.githubusercontent.com/u/4494264?v=4" width="100;" alt="Laeborg"/>
@@ -292,6 +301,8 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                     <sub><b>bsiddans</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/BootVirtual">
                     <img src="https://avatars.githubusercontent.com/u/64020530?v=4" width="100;" alt="BootVirtual"/>
@@ -299,8 +310,6 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                     <sub><b>BootVirtual</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/DanteMS">
                     <img src="https://avatars.githubusercontent.com/u/8601667?v=4" width="100;" alt="DanteMS"/>
@@ -336,6 +345,8 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                     <sub><b>Na0mir</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/ndlanier">
                     <img src="https://avatars.githubusercontent.com/u/14913926?v=4" width="100;" alt="ndlanier"/>
@@ -343,8 +354,6 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                     <sub><b>ndlanier</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/RestartFU">
                     <img src="https://avatars.githubusercontent.com/u/45609733?v=4" width="100;" alt="RestartFU"/>
@@ -380,6 +389,8 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                     <sub><b>StS82</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/alyoro">
                     <img src="https://avatars.githubusercontent.com/u/43644634?v=4" width="100;" alt="alyoro"/>
@@ -387,8 +398,6 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
                     <sub><b>alyoro</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/toastie89">
                     <img src="https://avatars.githubusercontent.com/u/19393929?v=4" width="100;" alt="toastie89"/>
